@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import LDLsummaryRightcomponent from './Component/LDLsummaryRightcomponent';
+import LDLsummaryRightcomponent from './LDLsummaryRightcomponent';
 
 
 const LDLsummaryRight = props => {
     return(
     <div>
-    <h1>hello yo</h1>
+    <LDLsummaryRightcomponent/>
     </div>
     )
 }
 
-//this is a dictionary because it has key value pairs
-<LDLsummaryRightcomponent />
+
+
 
 
 export default LDLsummaryRight

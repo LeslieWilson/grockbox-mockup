@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import LDLsummaryLeft from './Component/LDLsummaryLeft';
-import LDLsummaryRight from './Component/LDLsummaryRight';
+import LDLsummaryLeft from './LDLsummaryLeft';
+import LDLsummaryRight from './LDLsummaryRight';
 
 const LDLsummaryContainer = props => {
     return(

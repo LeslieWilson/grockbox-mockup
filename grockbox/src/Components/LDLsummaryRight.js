@@ -3,28 +3,32 @@ import LDLsummaryRightcomponent from './LDLsummaryRightcomponent';
 
 
 const LDLsummaryRight = props => {
+
+    let information = [
+    {id:1, ldlDescrip: "MOST RECENT LDL", number:138, date: "03/18/2018", name:  "Rosuvastatin, 20mg"},
+    {id:2, ldlDescrip: "STARTING LDL", number: "150(-17%)", name: "Losartin 10mg", date: "01/18/2018"},
+    {id: 3, ldlDescrip: "HIGHEST LDL", number: 175, name: "No Medication", date: "03/15/2015"}
+]
+
+    let informationcomponent = information.map(data => {
+        return(
+            <LDLsummaryRightcomponent
+            name = {data.name}
+            date = {data.date}
+            ldlDescrip = {data.ldlDescrip}
+            number = {data.number}
+            key = {data.id}
+            />
+        )
+    })
+
     return(
-    <div>
-    <LDLsummaryRightcomponent/>
+    <div className = "entireRightSide">
+    {informationcomponent}
+
     </div>
     )
+
 }
-
-
-props.ldlDescrip = MOST RECENT LDL
-props.number = 138
-props.name = Rosuvastatin 20 mg
-props.date = 03/18/2018
-
-props.ldlDecrip = STARTING LDL
-props.number = 150(-17%)
-props.name = Losartin 10mg
-props.date = 01/18/2018
-
-props.ldlDecrip = HIGHEST LDL
-props.number = 175
-props.name = No Medication
-props.date = 03/15/2015
-
 
 export default LDLsummaryRight

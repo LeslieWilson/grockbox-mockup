@@ -4,7 +4,7 @@ import LDLsummaryRight from './LDLsummaryRight';
 
 const LDLsummaryContainer = props => {
     return(
-        <div>
+        <div className= "entireThing">
         <LDLsummaryLeft />
         <LDLsummaryRight />
         </div>

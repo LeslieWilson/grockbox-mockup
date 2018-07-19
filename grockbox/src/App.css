@@ -1,5 +1,6 @@
 .App{
-    background-color: black;
+    background-color: #333333;
+
 
 }
 
@@ -20,6 +21,7 @@ span{
 .ldlDescrip{
     color: gray;
     width:33%;
+    margin-top: .5em;
 
 
 }
@@ -27,18 +29,21 @@ span{
 .number{
     color: white;
     width:33%;
+    margin-top:.5em;
 
 
 }
 
 .date{
     color:white;
+    margin-top:.5em;
 
 }
 
 .name{
     color:white;
     flex-wrap: wrap-reverse;
+    margin-top: -.0003em;
 
 }
 
@@ -58,13 +63,14 @@ border-top: 1px solid white;
 }
 
 .entireRightSide{
-    margin-left:-8em;
+    margin-left:1em;
     margin-top:1em
 
 }
-
+/*need to move entire thing closer together, and then move the group to the right to make closer to image.*/
 .entireLeftSide{
-    margin-left:2.5em;
+    margin-left:2em;
+
 }
 
 .image{

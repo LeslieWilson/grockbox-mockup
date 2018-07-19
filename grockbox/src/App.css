@@ -1,11 +1,13 @@
 .App{
     background-color: #333333;
+    padding: 4px 4px 4px 4px;
+
 
 
 }
 
 body{
-    color: white;
+    color: lightgray;
     margin:1em 1em 1em 1em;
 
 }
@@ -45,7 +47,7 @@ span{
 .name{
     color:white;
     flex-wrap: wrap-reverse;
-    margin-top: -.0005em;
+    margin-top: .17em;
 
 }
 
@@ -53,7 +55,7 @@ span{
     display:flex;
     flax-wrap:wrap;
     height:14.1em;
-    border:1px solid red;
+    border:1px solid gray;
     border-margin:1px;
 
 }
@@ -83,6 +85,11 @@ border-top: 1px solid white;
 .image{
     height:7em;
 
+
+}
+img{
+    margin-top:1.2em;
+    margin-left:-1em;
 }
 
 .P1{

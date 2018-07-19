@@ -8,7 +8,7 @@ const LDLsummaryLeft = props =>{
         <div className = "image">
 
 
-        <svg width="80px" height="43px" viewBox="0 0 80 43" version="1.1" >
+        <svg width="250px" height="95px" viewBox="15 -12 80 43" version="1.1" >
 
             <desc>Created with Sketch</desc>
             <defs></defs>

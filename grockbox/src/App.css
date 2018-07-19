@@ -6,6 +6,8 @@
 
 body{
     color: white;
+    margin:1em 1em 1em 1em;
+
 }
 
 span{
@@ -20,8 +22,8 @@ span{
 
 .ldlDescrip{
     color: gray;
-    width:33%;
-    margin-top: .5em;
+    width:50%;
+    margin-top: .4em;
 
 
 }
@@ -29,27 +31,30 @@ span{
 .number{
     color: white;
     width:33%;
-    margin-top:.5em;
+    margin-top:.4em;
 
 
 }
 
 .date{
     color:white;
-    margin-top:.5em;
+    margin-top:.4em;
 
 }
 
 .name{
     color:white;
     flex-wrap: wrap-reverse;
-    margin-top: -.0003em;
+    margin-top: -.0005em;
 
 }
 
 .entireThing{
     display:flex;
     flax-wrap:wrap;
+    height:14.1em;
+    border:1px solid red;
+    border-margin:1px;
 
 }
 
@@ -63,13 +68,15 @@ border-top: 1px solid white;
 }
 
 .entireRightSide{
-    margin-left:1em;
-    margin-top:1em
+    margin-left:-2em;
+    margin-right: 1.2em;
+    margin-top:1.2em
 
 }
 /*need to move entire thing closer together, and then move the group to the right to make closer to image.*/
 .entireLeftSide{
-    margin-left:2em;
+    margin-left:1em;
+    margin-top:-1em;
 
 }
 
@@ -79,16 +86,24 @@ border-top: 1px solid white;
 }
 
 .P1{
-    font-size: .8em;
+    font-size: 1em;
+    margin:0px;
+    padding:0px;
+
 }
 
 .P2{
-    font-size:1em;
+    font-size:1.5em;
     color:gray;
+    margin-top:.2em;
+    margin-bottom: .1em;
+
 }
 
 .P3{
-    font-size: .8em;
+    font-size: 1em;
+    margin-top: .5em;
+
 }
 
 .risk{
@@ -96,7 +111,8 @@ border-top: 1px solid white;
 }
 
 .P4{
-    font-size: .8em;
+    font-size: 1em;
+    margin-top:-.5em;
 
 }
 

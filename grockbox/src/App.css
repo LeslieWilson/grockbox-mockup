@@ -8,11 +8,48 @@ body{
 }
 
 span{
+    color:white;
+}
+
+.rightDivs{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.ldlDescrip{
     color: gray;
+    width:33%;
+
+
+}
+
+.number{
+    color: white;
+    width:33%;
+
+
+}
+
+.date{
+    color:white;
+
+}
+
+.name{
+    color:white;
+    flex-wrap: wrap-reverse;
+
 }
 
 .entireThing{
     display:flex;
+    flax-wrap:wrap;
+
+}
+
+.entireThing>* {
+    flex: .5 .5 160px
 }
 
 .statsGroup{
@@ -21,10 +58,42 @@ border-top: 1px solid white;
 }
 
 .entireRightSide{
+    margin-left:-8em;
+    margin-top:1em
 
 }
 
-.image{
-    height:8em;
+.entireLeftSide{
+    margin-left:2.5em;
+}
 
+.image{
+    height:7em;
+
+}
+
+.P1{
+    font-size: .8em;
+}
+
+.P2{
+    font-size:1em;
+    color:gray;
+}
+
+.P3{
+    font-size: .8em;
+}
+
+.risk{
+    color:gray;
+}
+
+.P4{
+    font-size: .8em;
+
+}
+
+.intensity{
+    color:gray;
 }
